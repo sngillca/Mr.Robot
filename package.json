@@ -1,0 +1,30 @@
+{
+  "name": "mr.robot",
+  "version": "1.0.0",
+  "description": "node api hosted on heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sngillca/Mr.Robot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sngillca/Mr.Robot/issues"
+  },
+  "homepage": "https://github.com/sngillca/Mr.Robot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "nodemon": "^1.19.0"
+  },
+  "engines": {
+    "node": "10.16.3"
+  }
+}
